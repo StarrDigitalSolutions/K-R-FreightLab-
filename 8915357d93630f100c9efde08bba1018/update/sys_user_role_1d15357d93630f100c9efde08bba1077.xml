@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Manages loads, assigns drivers, tracks shipments, and monitors mileage</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>9ihNf1PArGqUQqemkz4O11XsqmWLVnVPNrclG6ILo+4=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_177080_k_r_fre_0.dispatcher</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>dispatcher</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-26 07:52:57</sys_created_on>
+        <sys_id>1d15357d93630f100c9efde08bba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_177080_k_r_fre_0.dispatcher</sys_name>
+        <sys_package display_value="KnR Freightlab" source="x_177080_k_r_fre_0">8915357d93630f100c9efde08bba1018</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KnR Freightlab">8915357d93630f100c9efde08bba1018</sys_scope>
+        <sys_update_name>sys_user_role_1d15357d93630f100c9efde08bba1077</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-26 07:52:57</sys_updated_on>
+    </sys_user_role>
+</record_update>
