@@ -2,25 +2,25 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Full control over app configuration, all records, and reporting</description>
+        <description>Read‑only access for drivers.</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id>drIZ4CK1J0g+DfZO8IkOUpLAhNZ58TlLX3cXYTbi+jc=</federated_id>
+        <federated_id>w7vwzA1Pa/9hyJRvxnICt6ZWaHNRCreDjhSRV/LAS0w=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_177080_k_r_fre_0.admin</name>
+        <name>x_177080_k_r_fre_0.driver.viewer</name>
         <scoped_admin>false</scoped_admin>
-        <suffix>admin</suffix>
+        <suffix>driver.viewer</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-26 07:52:57</sys_created_on>
-        <sys_id>0915357d93630f100c9efde08bba106e</sys_id>
+        <sys_created_on>2026-10-06 03:54:59</sys_created_on>
+        <sys_id>4f4e1009933747900c9efde08bba105c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_177080_k_r_fre_0.admin</sys_name>
+        <sys_name>x_177080_k_r_fre_0.driver.viewer</sys_name>
         <sys_package display_value="KnR Freightlab" source="x_177080_k_r_fre_0">8915357d93630f100c9efde08bba1018</sys_package>
         <sys_policy/>
         <sys_scope display_value="KnR Freightlab">8915357d93630f100c9efde08bba1018</sys_scope>
-        <sys_update_name>sys_user_role_0915357d93630f100c9efde08bba106e</sys_update_name>
+        <sys_update_name>sys_user_role_4f4e1009933747900c9efde08bba105c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-26 07:52:57</sys_updated_on>
+        <sys_updated_on>2026-10-06 03:54:59</sys_updated_on>
     </sys_user_role>
 </record_update>
