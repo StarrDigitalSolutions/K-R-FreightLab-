@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vehicle_type" table="x_177080_k_r_fre_0_drivers" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vehicle_type</element>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vehicle_type</sys_name>
+            <sys_package display_value="KnR Freightlab" source="x_177080_k_r_fre_0">8915357d93630f100c9efde08bba1018</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KnR Freightlab">8915357d93630f100c9efde08bba1018</sys_scope>
+            <sys_update_name>sys_choice_x_177080_k_r_fre_0_drivers_vehicle_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 08:05:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cargo Van</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:27:45</sys_updated_on>
+            <value>cargo_van</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pickup</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 09:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:26:23</sys_updated_on>
+            <value>pickup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sprinter</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:26:18</sys_updated_on>
+            <value>sprinter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box Truck</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:27:12</sys_updated_on>
+            <value>box_truck</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pickup with Trailer</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:26:46</sys_updated_on>
+            <value>pickup_with_trailer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatbed</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:27:21</sys_updated_on>
+            <value>flatbed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reefer</label>
+            <language>en</language>
+            <name>x_177080_k_r_fre_0_drivers</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 08:58:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-07 09:22:30</sys_updated_on>
+            <value>reefer</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

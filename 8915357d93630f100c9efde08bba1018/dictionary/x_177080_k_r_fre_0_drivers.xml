@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22bd5e5d93370b900c9efde08bba1060" label="Drivers" max_length="40" name="x_177080_k_r_fre_0_drivers" type="collection">
+        <element label="Phone Number" max_length="15" name="phone_number" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element choice="3" default="cargo_van" label="Vehicle Type" max_length="40" name="vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sprinter" sequence="3" value="sprinter"/>
+                <element inactive_on_update="false" label="Box Truck" sequence="4" value="box_truck"/>
+                <element inactive_on_update="false" label="Cargo Van" sequence="1" value="cargo_van"/>
+                <element inactive_on_update="false" label="Flatbed" sequence="6" value="flatbed"/>
+                <element inactive_on_update="false" label="Pickup with Trailer" sequence="5" value="pickup_with_trailer"/>
+                <element inactive_on_update="false" label="Pickup" sequence="2" value="pickup"/>
+                <element inactive_on_update="false" label="Reefer" sequence="7" value="reefer"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="License Number" max_length="40" name="license_number" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element attributes="answer = current.driver_name + ' – ' + current.vehicle_type + ' (' + current.driver_type + ')';&#13;&#10;" display="true" label="Driver Name" mandatory="true" max_length="100" name="driver_name" type="string"/>
+        <element label="Vehicle VIN" max_length="40" name="vehicle_vin" type="string"/>
+        <element label="Pay Rate" max_length="15" name="pay_rate" type="decimal"/>
+        <element choice="3" default="company_driver" label="Driver Type" max_length="40" name="driver_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Company Driver" sequence="0" value="company_driver"/>
+                <element inactive_on_update="false" label="Contract Driver" sequence="1" value="contract_driver"/>
+                <element inactive_on_update="false" label="Owner Operator" sequence="2" value="owner_operator"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Driver Number" max_length="40" name="number" type="string"/>
+        <element label="Vehicle Plate" max_length="10" name="vehicle_plate" type="string"/>
+    </element>
+</database>

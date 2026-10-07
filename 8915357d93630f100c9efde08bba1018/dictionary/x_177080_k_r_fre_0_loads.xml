@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7403a29993770b900c9efde08bba10e9" label="Loads" max_length="40" name="x_177080_k_r_fre_0_loads" type="collection">
+        <element label="Delivered Date/Time" max_length="255" name="delivered_date_time" type="glide_date_time"/>
+        <element label="Expected Delivery Date/Time" max_length="255" name="expected_delivery_date_time" type="glide_date_time"/>
+        <element label="Total Revenue" max_length="20" name="total_revenue" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Load Number" max_length="40" name="number" type="string"/>
+        <element label="Deadhead Miles" max_length="255" name="deadhead_miles" type="integer"/>
+        <element label="Pickup Date/Time" max_length="255" name="pickup_date_time" type="glide_date_time"/>
+        <element label="Company Name" max_length="32" name="company_name" reference="x_177080_k_r_fre_0_contracts" type="reference"/>
+        <element label="Fuel Surcharge" max_length="20" name="fuel_surcharge" type="currency"/>
+        <element label="Pickup Location" max_length="244" name="pickup_location" type="string"/>
+        <element label="Accessorials" max_length="20" name="accessorials" type="currency"/>
+        <element label="Loaded Miles" max_length="255" name="loaded_miles" type="integer"/>
+        <element label="Notes" max_length="255" name="notes" type="journal_input"/>
+        <element choice="3" default="full_load" label="Load Type" max_length="40" name="load_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Partial" sequence="1" value="partial"/>
+                <element inactive_on_update="false" label="Hotshot" sequence="3" value="hotshot"/>
+                <element inactive_on_update="false" label="Urgent" sequence="5" value="urgent"/>
+                <element inactive_on_update="false" label="Dedicated" sequence="2" value="dedicated"/>
+                <element inactive_on_update="false" label="Expedited" sequence="4" value="expedited"/>
+                <element inactive_on_update="false" label="Full Load" sequence="0" value="full_load"/>
+            </choice>
+        </element>
+        <element label="Delivery Location" max_length="244" name="delivery_location" type="string"/>
+        <element label="Contract" max_length="32" name="contract" reference="x_177080_k_r_fre_0_contracts" type="reference"/>
+        <element label="Rate" max_length="20" name="rate" type="currency"/>
+        <element label="Rate Confirmation Attachment" max_length="255" name="rate_confirmation_attachment" type="file_attachment"/>
+        <element label="Driver" max_length="32" name="driver" reference="x_177080_k_r_fre_0_drivers" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned" sequence="0" value="assigned"/>
+                <element inactive_on_update="false" label="In Transit" sequence="1" value="in_transit"/>
+                <element inactive_on_update="false" label="Delivered" sequence="2" value="delivered"/>
+                <element inactive_on_update="false" label="Paid" sequence="3" value="paid"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company_name"/>
+        </index>
+        <index name="index2">
+            <element name="contract"/>
+        </index>
+        <index name="index3">
+            <element name="driver"/>
+        </index>
+    </element>
+</database>

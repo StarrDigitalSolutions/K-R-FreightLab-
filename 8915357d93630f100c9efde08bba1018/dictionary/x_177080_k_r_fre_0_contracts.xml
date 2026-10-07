@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8bcc029993b30b900c9efde08bba104c" label="Contracts" max_length="40" name="x_177080_k_r_fre_0_contracts" type="collection">
+        <element choice="3" default="broker" label="Contract Type" max_length="40" name="contract_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dedicated Lane" sequence="2" value="dedicated_lane"/>
+                <element inactive_on_update="false" label="Master Service Agreement" sequence="6" value="master_service_agreement"/>
+                <element inactive_on_update="false" label="Broker" sequence="0" value="broker"/>
+                <element inactive_on_update="false" label="Rate" sequence="4" value="rate"/>
+                <element inactive_on_update="false" label="Onboarding Packet" sequence="5" value="onboarding_packet"/>
+                <element inactive_on_update="false" label="Shipper" sequence="3" value="shipper"/>
+                <element inactive_on_update="false" label="Carrier" sequence="1" value="carrier"/>
+                <element inactive_on_update="false" label="Seasonal" sequence="7" value="seasonal"/>
+            </choice>
+        </element>
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element label="Company Name" max_length="244" name="company_name" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
+        <element label="Contract Name" max_length="244" name="contract_name" type="string"/>
+        <element label="Contact Phone" max_length="15" name="contact_phone" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Contract Number" max_length="40" name="number" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Contract Terms" max_length="244" name="contract_terms" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
